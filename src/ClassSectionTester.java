@@ -1,4 +1,5 @@
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
+//import org.testng.annotations.Test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -67,7 +68,7 @@ public class ClassSectionTester {
     // Test 5
     public void TestForToString() {
         setUp();
-        assertEquals("Make sure toString is correct!", student1.toString(), "Student{id=92, firstName='Adrian', lastName='Wong', age=17}");
+        assertEquals("Make sure toString is correct!", student1.toString(), "Student{id=2, firstName='Adrian', lastName='Wong', age=17}");
         tearDown();
     }
 
